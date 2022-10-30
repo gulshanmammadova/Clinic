@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 11rem;
+}
+.navbar{
+    background-color: #208BBF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 11rem;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+.navbar .logo{
+ 
+  width: 15%;
+}
+.navbar .logo img{
+    width: 100%;
+}
+
+.navbar .logo .appointment {
+    padding-right:  11rem;
+    width: 16%;  
+}
+.navbar .appointment a{
+    background-color: white;  
+    text-decoration: none;
+    border-radius: 100px;
+    padding:1rem 1.5rem;
+    color: black;  
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 700;
+}.navbar .nav a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.container .equipment p{
+    font-weight: bold;
+    text-align: center;
+margin-top: 4rem ;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.equipment .safequard {
+    text-align: center;
+   
+
+}
+.equipment  .infosavequard {
+    text-align: center;
+}
+.equipment .safequard .basephoto {
+    text-align: center;
+    width: 54%;
+}
+.equipment .safequard .basephoto img{
+    width: 100%;
+}
+.equipment  .infosavequard .text{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+   
+font-size: 20px;}
+.equipment  .infosavequard  .card{
+    width: 20%;
+ margin: -2rem auto; 
+}
+.equipment  .infosavequard  p{
+
+    text-decoration: none;
+   padding: 10px 2rem;
+   border-radius: 100px;
+   text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color: #208BBF;
+    margin-bottom: 7rem;
+    
+}
+.container .desinfectant h2{
+    font-size: 36px;
+    color: #222222;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.container .desinfectant .photos .carts{
+   width: 30%;
+}
+.container .desinfectant .photos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .desinfectant .photos .carts img{
+    transform: scale(1);
+    transition: .3s;
+    width: 100%;
+    
+    vertical-align: bottom;
+}
+.container .desinfectant .photos .carts{
+    margin-top:3.5rem ;
+}
+.container .desinfectant .photos .carts .info a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;  
+}
+.container .desinfectant .photos .carts .info {
+    background-color: #F2F2F2;
+    padding: 1rem;
+}
+.container .desinfectant .photos .carts .info p{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.container .desinfectant .photos .carts .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.container .desinfectant .photos .carts .price-icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.container .desinfectant .photos .carts img:hover{
+ transform: scale(1.1);
+}
+.container .desinfectant .photos .carts  {
+    overflow: hidden;
+  
+}
+
+ 
+
